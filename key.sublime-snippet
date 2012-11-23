@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+key :${1:name}, ${2:type}
+${0}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>key</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Mongomapper key</description>
+</snippet>

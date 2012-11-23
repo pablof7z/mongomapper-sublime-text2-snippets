@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+class ${1:Model}
+  include MongoMapper::Document
+
+  ${0}
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cla</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Mongomapper model</description>
+</snippet>
